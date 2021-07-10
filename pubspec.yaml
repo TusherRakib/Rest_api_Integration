@@ -26,6 +26,7 @@ dependencies:
   http:
   mvc_pattern:
   rxdart:
+  percent_indicator: ^3.0.1
 
 
 

@@ -19,10 +19,10 @@ class _DashboardState extends StateMVC<Dashboard> {
 
   ApiLinks apiLinks;
 
-  PostController _postController;
+  JsonController _postController;
 
 
-  _DashboardState() : super(PostController(),) {
+  _DashboardState() : super(JsonController(),) {
     _postController = controller;
   }
 

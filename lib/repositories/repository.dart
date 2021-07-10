@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:rest_api_jsonholder/models/PhotosModel.dart';
 import 'package:rest_api_jsonholder/models/Postmodel.dart';
 import 'package:rest_api_jsonholder/helper/apis.dart';
 import 'package:rest_api_jsonholder/bloc/bloc.dart';
@@ -28,12 +29,12 @@ import 'package:http/http.dart' as http;
 Future<List<dynamic>> repoPhotosList() async {
   ApiLinks apiLinks = new ApiLinks();
   try {
-    var response = await http.get(Uri.parse(apiLinks.getPosts));
+    var response = await http.get(Uri.parse(apiLinks.getPhotos));
     print("response Data::::${response.body}");
     if (response != null) {
-      print("REPO POST LIST");
-      List<PostModel> lists = List<PostModel>.from(
-          json.decode(response.body).map((x) => PostModel.fromJson(x)));
+      print("REPO Photos LIST");
+      List<PhotosModel> lists = List<PhotosModel>.from(
+          json.decode(response.body).map((x) => PhotosModel.fromJson(x)));
       print(lists.length);
       return lists;
     }

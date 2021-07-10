@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rest_api_jsonholder/views/photos_screen.dart';
 import 'package:rest_api_jsonholder/views/posts_screen.dart';
 
 class MainScreen extends StatefulWidget {
@@ -38,7 +39,7 @@ class _MainScreenState extends State<MainScreen> {
         body: TabBarView(
           children: [
             Dashboard(),
-            Icon(Icons.directions_car, size: 350),
+            PhotosScreen(),
           ],
         ),
       ),
