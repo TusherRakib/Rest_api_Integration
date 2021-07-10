@@ -1,16 +1,14 @@
 # rest_api_jsonholder
 
-A new Flutter project.
+Rest APi integration using https://jsonplaceholder.typicode.com
 
-## Getting Started
+Used Flutter MVC Pattern and BLOC.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+![image](https://user-images.githubusercontent.com/49785991/125173618-11251c00-e175-11eb-97a9-ec4417dd5291.png)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+![image](https://user-images.githubusercontent.com/49785991/125173614-0bc7d180-e175-11eb-845f-507ebd62564e.png)
+
+![image](https://user-images.githubusercontent.com/49785991/125173634-15513980-e175-11eb-87ca-e4b580f6c628.png)
