@@ -30,7 +30,7 @@ class _PhotosScreenState extends StateMVC<PhotosScreen> {
   @override
   void initState() {
     apiLinks=new ApiLinks();
-    _photosController.listenForPostList();
+    _photosController.listenForPhotosList();
     // TODO: implement initState
     super.initState();
   }
